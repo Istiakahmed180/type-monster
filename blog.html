@@ -48,14 +48,16 @@
             function is called, it is sent to a browser API. These are APIs built into the browser.</p>
     </div>
     <div>
-        <h3>Question Number 4: How javascript event loop works?</h3>
-        <p><span style="font-weight: bold;">Answer:-</span> The event loop is a process that waits for the Call Stack to
-            be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event
-            loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call
-            Stack, waits for the Call Stack to be clear again, and repeats the same process. The event queue is
-            responsible for sending new functions to the stack for processing. It follows the queue data structure to
-            maintain the correct sequence in which all operations should be sent for execution. Whenever an async
-            function is called, it is sent to a browser API. These are APIs built into the browser.</p>
+        <h3>Question Number 4: How many ways to get Undefine?</h3>
+        <p><span style="font-weight: bold;">Answer:-</span></p>
+        <p>1.Non-static variables (local variables) are indeterminate. Reading them prior to assigning a value results in undefined behavior.</p>
+        <p>2.I know the results but I want to know more in-depth. Is that mean in Javascript functions, no return statement identical to return undefined</p>
+        <p>3.The missing type parameter is not being inferred as unknown here; by hovering over the function call, we can see that the type parameter is inferred as the upper bound number | undefined.</p>
+        <p>4.If return has nothing on the right side will return undefined</p>
+        <p>5.Property that doesn't exists on an object will give you undefined</p>
+        <p>6.Accessing array elements outside of the index range </p>
+        <p>7.Deleting an element inside an array</p>
+        <p>8.Set a value directly to undefined</p>
     </div>
 
 </body>
