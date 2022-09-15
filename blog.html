@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        h1 {
+            margin-left: 35%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Question And Answer Blog:-</h1>
+    <div>
+        <h3>Question Number 1: What is difference between localstorage and sessionstorage?</h3>
+        <p><span style="font-weight: bold;">Answer:-</span> localStorage persists the storage across browser sessions.
+            So even if the domain is opened in a new tab, or the browser is closed and reopened, the storage is saved.
+            There is no expiration. sessionStorage is cleared when the page session ends. A page session lasts as long
+            as the tab or the browser is open. Therefore, when you open a new tab or a new window, this creates a new
+            session and new storage.<br><br>localStorage and sessionStorage are almost the same. Both have the following
+            rules:</p>
+        <p>1.They store key/value pairs for a particular domain.</p>
+        <p>2.The values stored may only be strings.</p>
+        <p>3.They have a limit of around 5MB of storage space.</p>
+    </div>
+    <div>
+        <h3>Question Number 2: What is difference between global scope and block scope?</h3>
+        <p><span style="font-weight: bold;">Answer:-</span> Global Scope variables defined outside of any function or
+            curly brackets are known as global variables and have global scope. Global scope means that the variables
+            can be accessed from any part of that program, any function or conditional state can access that variable.
+            <br><br>Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the
+            variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional
+            statements, or something else. You are only allowed to refer to these variables from within the curly
+            brackets {}.</p>
+    </div>
+    <div>
+        <h3>Question Number 3: How javascript event loop works?</h3>
+        <p><span style="font-weight: bold;">Answer:-</span> The event loop is a process that waits for the Call Stack to
+            be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event
+            loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call
+            Stack, waits for the Call Stack to be clear again, and repeats the same process. The event queue is
+            responsible for sending new functions to the stack for processing. It follows the queue data structure to
+            maintain the correct sequence in which all operations should be sent for execution. Whenever an async
+            function is called, it is sent to a browser API. These are APIs built into the browser.</p>
+    </div>
+    <div>
+        <h3>Question Number 4: How javascript event loop works?</h3>
+        <p><span style="font-weight: bold;">Answer:-</span> The event loop is a process that waits for the Call Stack to
+            be clear before pushing callbacks from the Task Queue to the Call Stack. Once the Stack is clear, the event
+            loop triggers and checks the Task Queue for available callbacks. If there are any, it pushes it to the Call
+            Stack, waits for the Call Stack to be clear again, and repeats the same process. The event queue is
+            responsible for sending new functions to the stack for processing. It follows the queue data structure to
+            maintain the correct sequence in which all operations should be sent for execution. Whenever an async
+            function is called, it is sent to a browser API. These are APIs built into the browser.</p>
+    </div>
+
+</body>
+
+</html>
