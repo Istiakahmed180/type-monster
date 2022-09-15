@@ -1,7 +1,4 @@
 const histories = document.getElementById("histories");
-histories.style.display="grid"
-histories.style.gridTemplateColumns="repeat(3,1fr)"
-histories.style.gap="20px"
 
 function addHistory(questionText, timeTaken, errorCount) {
   const newRow = document.createElement("div");
